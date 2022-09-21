@@ -4,6 +4,8 @@ This is a Jupyter notebook that downloads PhD disertations from the [Deutsche Na
 
 The only input required is a search term. The notebook will then download all the PDFs that match the search term. This can be useful for downloading a large number of PDFs for a specific topic to perform a literature review or meta analysis.
 
+My use case was to download all the PDFs that contained the word "security" in the title for finetuning of an NLP model and PhD subject identification.
+
 Example input (="security"):
 ```
 https://portal.dnb.de/opac/showPreviousResultSite?currentResultId=tit+all+%22security%22%26any%26dnb.hss%26onlinefree
